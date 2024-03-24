@@ -7,6 +7,7 @@ import chalk  from "chalk";
 // 2) User input for guessing number -Done
 // 3) Compare user input with Computer generated number and show result
 
+
 const randomNumber = Math.floor(Math.random()*10 + 1);
 
 console.log(chalk.yellow.bold("\t\tWelcome to Our Number Game World"))
